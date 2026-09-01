@@ -1,0 +1,459 @@
+{
+  "stacks": [
+    {
+      "name": "Cloud and DevOps",
+      "skills": [
+        {
+          "skill": "AWS",
+          "jobDemand": 101,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Pursue an AWS certification (e.g., Solutions Architect Associate) and add to Skills section, or demonstrate usage in a personal project."
+        },
+        {
+          "skill": "Azure",
+          "jobDemand": 91,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Focus on one primary cloud provider first (AWS or Azure) and gain hands-on project experience using its services."
+        },
+        {
+          "skill": "Google Cloud",
+          "jobDemand": 43,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Prioritize one or two cloud providers based on job market interest and build projects leveraging their services."
+        },
+        {
+          "skill": "Jenkins",
+          "jobDemand": 38,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add Jenkins to the Tools section and describe specific CI/CD pipeline automation tasks performed using it."
+        },
+        {
+          "skill": "Kubernetes",
+          "jobDemand": 32,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Integrate Kubernetes into a personal project using Docker containers, then list it under Tools and DevOps."
+        },
+        {
+          "skill": "Linux",
+          "jobDemand": 30,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add Linux to the Tools section, emphasizing command-line proficiency and basic system administration."
+        },
+        {
+          "skill": "Bash/Shell",
+          "jobDemand": 25,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add Bash/Shell to the Tools section, highlighting scripting for automation or deployment tasks."
+        },
+        {
+          "skill": "Terraform",
+          "jobDemand": 17,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Learn Terraform by deploying infrastructure for a personal project on a cloud platform like AWS or Azure."
+        },
+        {
+          "skill": "Ansible",
+          "jobDemand": 7,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Explore Ansible for configuration management in a project, automating server setup or application deployment."
+        }
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "skills": [
+        {
+          "skill": "Java",
+          "jobDemand": 82,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Unless specifically targeting Java roles, prioritize strengthening existing backend skills or other high-demand areas."
+        },
+        {
+          "skill": "Go",
+          "jobDemand": 37,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Develop a small service or API using Go to demonstrate proficiency in a new, high-performance language."
+        },
+        {
+          "skill": "C#",
+          "jobDemand": 23,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Consider C# only if specifically targeting Microsoft tech stacks or roles, as it requires significant learning."
+        },
+        {
+          "skill": "Kafka",
+          "jobDemand": 21,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Integrate Kafka into a microservices project for asynchronous communication and event streaming."
+        },
+        {
+          "skill": "Django",
+          "jobDemand": 19,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Build a REST API or web application using Django, showcasing database integration and best practices."
+        },
+        {
+          "skill": "Spring Boot",
+          "jobDemand": 19,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "If pursuing Java development, master Java first before adding Spring Boot to the tech stack."
+        },
+        {
+          "skill": "Flask",
+          "jobDemand": 15,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Develop a small API service or microservice using Flask, showcasing Python backend capabilities."
+        },
+        {
+          "skill": "OOP Design",
+          "jobDemand": 14,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add 'OOP Design' to the Skills section, mentioning its application in Python/C++/TypeScript projects."
+        },
+        {
+          "skill": "GraphQL",
+          "jobDemand": 14,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Implement a GraphQL API in a Node.js project as an alternative or alongside a REST API."
+        },
+        {
+          "skill": "Express.js",
+          "jobDemand": 12,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly list Express.js under Backend, detailing its use in Node.js applications and API development."
+        },
+        {
+          "skill": "ASP.NET",
+          "jobDemand": 7,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Only consider ASP.NET if committing to the C#/.NET ecosystem, as it's a significant learning curve."
+        },
+        {
+          "skill": "Ruby on Rails",
+          "jobDemand": 5,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Unless targeting specific Ruby/Rails roles, focus on strengthening existing or more broadly applicable backend stacks."
+        },
+        {
+          "skill": "System Architecture",
+          "jobDemand": 5,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Ensure 'System Architecture' is prominently featured and elaborated upon in project and experience descriptions."
+        },
+        {
+          "skill": "Ruby",
+          "jobDemand": 4,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Learning Ruby without a specific job target may be less efficient than deepening existing language skills."
+        },
+        {
+          "skill": "Rust",
+          "jobDemand": 3,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Explore Rust for performance-critical backend components or system programming, acknowledging its learning curve."
+        },
+        {
+          "skill": "PHP",
+          "jobDemand": 3,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Generally not recommended to prioritize PHP unless applying to specific legacy systems or niche roles."
+        },
+        {
+          "skill": "Swift",
+          "jobDemand": 3,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Swift is mainly for Apple ecosystem development; only pursue if aiming for mobile-focused roles."
+        },
+        {
+          "skill": "Kotlin",
+          "jobDemand": 3,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Kotlin is a good alternative for JVM backend if Java is learned, or for Android development."
+        }
+      ]
+    },
+    {
+      "name": "Databases and Data",
+      "skills": [
+        {
+          "skill": "SQL",
+          "jobDemand": 103,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add 'SQL' to the Skills section, highlighting proficiency in complex queries and database management."
+        },
+        {
+          "skill": "Data Engineering",
+          "jobDemand": 37,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Undertake a project involving data ingestion, transformation, and storage (ETL/ELT) to demonstrate Data Engineering concepts."
+        },
+        {
+          "skill": "Oracle DB",
+          "jobDemand": 17,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Only pursue Oracle DB if targeting enterprise roles heavily reliant on it, otherwise deepen existing SQL skills."
+        },
+        {
+          "skill": "SQL Server",
+          "jobDemand": 16,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Consider SQL Server if focusing on Microsoft stacks, otherwise existing PostgreSQL/MySQL knowledge is sufficient."
+        },
+        {
+          "skill": "Spark",
+          "jobDemand": 11,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Explore Spark if pivoting towards big data processing or data engineering, leveraging Python for PySpark."
+        },
+        {
+          "skill": "Elasticsearch",
+          "jobDemand": 10,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Implement Elasticsearch for full-text search or logging in a project, demonstrating its integration with existing services."
+        },
+        {
+          "skill": "Redis",
+          "jobDemand": 10,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Integrate Redis into an existing or new project for caching, real-time data, or pub/sub messaging."
+        },
+        {
+          "skill": "Hadoop",
+          "jobDemand": 5,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Focus on more modern big data tools like Spark unless a role explicitly requires Hadoop expertise."
+        },
+        {
+          "skill": "Pandas",
+          "jobDemand": 5,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add Pandas to the Skills section, detailing its use in data analysis or preparation within Python projects."
+        },
+        {
+          "skill": "NumPy",
+          "jobDemand": 3,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add NumPy to the Skills section, mentioning its use for numerical operations or data processing in Python."
+        },
+        {
+          "skill": "Cassandra",
+          "jobDemand": 2,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Consider Cassandra if working with extremely high-scale, distributed NoSQL requirements; otherwise, MongoDB is a good NoSQL start."
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "skills": [
+        {
+          "skill": "Angular",
+          "jobDemand": 24,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Focus on mastering React.js first; only learn Angular if a specific job target requires it, as it's a significant time investment."
+        },
+        {
+          "skill": "Next.js",
+          "jobDemand": 12,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Rebuild a React.js project using Next.js to demonstrate advanced React ecosystem knowledge and SSR/SSG."
+        },
+        {
+          "skill": "SASS/LESS",
+          "jobDemand": 10,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add SASS/LESS to the Skills section, demonstrating their use for modular and maintainable stylesheets."
+        },
+        {
+          "skill": "Vue.js",
+          "jobDemand": 8,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Focus on React.js mastery; only consider Vue.js if required by a specific role or team."
+        },
+        {
+          "skill": "Redux",
+          "jobDemand": 6,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add Redux to the Skills section, detailing its application for complex state management in React projects."
+        },
+        {
+          "skill": "Tailwind CSS",
+          "jobDemand": 4,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Implement Tailwind CSS in a frontend project to showcase modern styling techniques and rapid UI development."
+        },
+        {
+          "skill": "Bootstrap",
+          "jobDemand": 2,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Add Bootstrap to the Skills section if used for responsive web design, or integrate it into a project."
+        }
+      ]
+    },
+    {
+      "name": "Testing and QA",
+      "skills": [
+        {
+          "skill": "Selenium",
+          "jobDemand": 50,
+          "relevance": "MEDIUM",
+          "alreadyPartial": true,
+          "cvNote": "Explore Selenium for broader browser compatibility testing, or emphasize Playwright's modern advantages if sticking with it."
+        },
+        {
+          "skill": "Cypress",
+          "jobDemand": 17,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Implement Cypress for end-to-end testing in a frontend or full-stack project, showcasing test automation skills."
+        },
+        {
+          "skill": "Unit Testing",
+          "jobDemand": 10,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add 'Unit Testing' to the Skills section, mentioning its application in Python, Node.js, and C++ projects."
+        },
+        {
+          "skill": "JUnit",
+          "jobDemand": 10,
+          "relevance": "LOW",
+          "alreadyPartial": false,
+          "cvNote": "Only relevant if pursuing Java development; otherwise, focus on testing frameworks for existing languages (e.g., Pytest, Jest)."
+        },
+        {
+          "skill": "Jest",
+          "jobDemand": 6,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Implement Jest for unit and integration testing in React.js and Node.js projects."
+        },
+        {
+          "skill": "Mocha",
+          "jobDemand": 5,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "While Jest is often preferred with React, demonstrating proficiency in Mocha can also show broader testing expertise."
+        }
+      ]
+    },
+    {
+      "name": "AI and ML",
+      "skills": [
+        {
+          "skill": "Machine Learning",
+          "jobDemand": 49,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Complete a machine learning course or project using Python, focusing on a specific domain or problem."
+        },
+        {
+          "skill": "Computer Vision",
+          "jobDemand": 18,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Undertake a computer vision project using Python libraries (e.g., OpenCV, TensorFlow) to process images or video."
+        },
+        {
+          "skill": "NLP",
+          "jobDemand": 8,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "Engage in an NLP project using Python libraries (e.g., NLTK, SpaCy, Hugging Face) to demonstrate text processing skills."
+        },
+        {
+          "skill": "Deep Learning",
+          "jobDemand": 4,
+          "relevance": "MEDIUM",
+          "alreadyPartial": false,
+          "cvNote": "After foundational ML, explore deep learning frameworks like TensorFlow or PyTorch for more complex models."
+        },
+        {
+          "skill": "TensorFlow",
+          "jobDemand": 4,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Use TensorFlow to build and train a neural network for a machine learning or deep learning project."
+        },
+        {
+          "skill": "PyTorch",
+          "jobDemand": 4,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Alternatively, use PyTorch to develop deep learning models, showcasing proficiency in a popular ML framework."
+        },
+        {
+          "skill": "Scikit-learn",
+          "jobDemand": 1,
+          "relevance": "HIGH",
+          "alreadyPartial": false,
+          "cvNote": "Utilize Scikit-learn for implementing various machine learning algorithms in Python-based projects."
+        }
+      ]
+    },
+    {
+      "name": "Languages and Core CS",
+      "skills": [
+        {
+          "skill": "Algorithm Design",
+          "jobDemand": 15,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add 'Algorithm Design' to the Skills section, emphasizing problem-solving in data structures and algorithms."
+        },
+        {
+          "skill": "Data Structures",
+          "jobDemand": 13,
+          "relevance": "HIGH",
+          "alreadyPartial": true,
+          "cvNote": "Explicitly add 'Data Structures' to the Skills section, highlighting efficient data management in coding projects."
+        }
+      ]
+    }
+  ]
+}

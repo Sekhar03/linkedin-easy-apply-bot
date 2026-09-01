@@ -1,0 +1,14 @@
+{
+  "name": "linkedin-easy-apply-bot",
+  "version": "1.0.0",
+  "description": "LinkedIn Easy Apply automated script using Playwright",
+  "main": "apply.js",
+  "scripts": {
+    "login": "node login.js",
+    "apply": "node apply.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}

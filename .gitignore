@@ -1,0 +1,8 @@
+node_modules/
+*_user_data/
+state.json
+naukri_state.json
+indeed_state.json
+screenshot_*.png
+*.log
+.env

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Apply - LinkedIn Automation Dashboard</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Sidebar / Control Panel -->
+    <aside class="sidebar glass">
+      <header class="app-header">
+        <div class="logo-area">
+          <div class="logo-icon">
+            <i data-lucide="zap" class="pulse-icon"></i>
+          </div>
+          <h1>Easy Apply<span>Bot</span></h1>
+        </div>
+        <div class="status-indicator">
+          <span class="status-dot idle" id="statusDot"></span>
+          <span class="status-text" id="statusText">IDLE</span>
+        </div>
+      </header>
+
+      <form id="controlForm" class="control-form">
+        <!-- Platform Selection -->
+        <div class="form-group">
+          <label for="platform"><i data-lucide="globe"></i> Target Platform</label>
+          <select id="platform" name="platform" class="glass-select">
+            <option value="linkedin">LinkedIn</option>
+            <option value="other">Other Website</option>
+          </select>
+        </div>
+
+        <!-- Target Link -->
+        <div class="form-group">
+          <label for="targetUrl">
+            <i data-lucide="link"></i> Target Job Search URL
+          </label>
+          <input 
+            type="url" 
+            id="targetUrl" 
+            name="targetUrl" 
+            placeholder="https://www.linkedin.com/jobs/collections/easy-apply/..." 
+            required
+          >
+        </div>
+
+        <!-- File Upload Area -->
+        <div class="form-group">
+          <label><i data-lucide="file-text"></i> Upload CV / Resume (PDF)</label>
+          <div class="file-dropzone" id="dropzone">
+            <input type="file" id="resumeFile" name="resume" accept=".pdf,.doc,.docx" class="file-input">
+            <div class="dropzone-content">
+              <i data-lucide="upload-cloud" class="upload-icon"></i>
+              <p class="dropzone-title">Drag & drop your resume file</p>
+              <p class="dropzone-sub">or click to browse local files</p>
+              <p class="uploaded-filename" id="uploadedFilename">No file uploaded</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automation Settings -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="maxApplications"><i data-lucide="hash"></i> Max Applications</label>
+            <input type="number" id="maxApplications" name="maxApplications" min="1" max="200" value="25">
+          </div>
+          <div class="form-group toggle-group">
+            <label for="headless"><i data-lucide="eye-off"></i> Headless Mode</label>
+            <label class="switch">
+              <input type="checkbox" id="headless" name="headless">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Action Control Buttons -->
+        <div class="action-buttons">
+          <button type="submit" id="startBtn" class="btn btn-primary">
+            <i data-lucide="play"></i> Start Automation
+          </button>
+          <button type="button" id="stopBtn" class="btn btn-danger" disabled>
+            <i data-lucide="square"></i> Stop Bot
+          </button>
+        </div>
+      </form>
+
+      <!-- Collapsible Profile Answers System -->
+      <div class="accordion">
+        <button class="accordion-trigger" id="accordionTrigger">
+          <span><i data-lucide="user-check"></i> Profile & Form Auto-Answers</span>
+          <i data-lucide="chevron-down" class="chevron"></i>
+        </button>
+        <div class="accordion-content" id="accordionContent">
+          <div class="answers-grid" id="answersGrid">
+            <!-- Dynamic Form Inputs will be inserted here -->
+            <div class="loading-placeholder">Loading configuration answers...</div>
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm" id="saveAnswersBtn">
+            <i data-lucide="save"></i> Save Answers
+          </button>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="main-content">
+      
+      <!-- Stats Summary cards -->
+      <section class="stats-grid">
+        <div class="stat-card glass">
+          <div class="stat-icon blue">
+            <i data-lucide="briefcase"></i>
+          </div>
+          <div class="stat-info">
+            <h3>Processed Jobs</h3>
+            <p id="statProcessed">0</p>
+          </div>
+        </div>
+        <div class="stat-card glass">
+          <div class="stat-icon green">
+            <i data-lucide="check-circle-2"></i>
+          </div>
+          <div class="stat-info">
+            <h3>Applied Successfully</h3>
+            <p id="statSuccess">0</p>
+          </div>
+        </div>
+        <div class="stat-card glass">
+          <div class="stat-icon orange">
+            <i data-lucide="alert-triangle"></i>
+          </div>
+          <div class="stat-info">
+            <h3>Warnings/Interventions</h3>
+            <p id="statInterventions">0</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Terminal / Logs panel -->
+      <section class="terminal-panel glass">
+        <header class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <h2 class="terminal-title"><i data-lucide="terminal"></i> Automation Output Logs</h2>
+          <div class="terminal-actions">
+            <button id="autoscrollBtn" class="terminal-btn active" title="Toggle Auto Scroll">
+              <i data-lucide="arrow-down-to-line"></i> Scroll Lock
+            </button>
+            <button id="clearLogsBtn" class="terminal-btn" title="Clear Logs">
+              <i data-lucide="trash-2"></i> Clear
+            </button>
+            <button id="copyLogsBtn" class="terminal-btn" title="Copy to Clipboard">
+              <i data-lucide="copy"></i> Copy
+            </button>
+          </div>
+        </header>
+        <div class="terminal-body" id="logConsole">
+          <div class="log-line system-msg">[System] Ready to start. Enter a target LinkedIn search URL above, upload your resume, and click "Start Automation".</div>
+        </div>
+      </section>
+
+      <!-- History of Applied Jobs -->
+      <section class="history-panel glass">
+        <header class="panel-header">
+          <h2><i data-lucide="history"></i> Application History</h2>
+          <button id="refreshHistoryBtn" class="btn btn-secondary btn-icon-only" title="Refresh History">
+            <i data-lucide="rotate-cw"></i>
+          </button>
+        </header>
+        <div class="history-table-container">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Status</th>
+                <th>Timestamp</th>
+              </tr>
+            </thead>
+            <tbody id="historyTableBody">
+              <tr>
+                <td colspan="4" class="no-history">No applications recorded yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

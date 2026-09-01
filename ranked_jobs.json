@@ -1,0 +1,583 @@
+[
+  {
+    "jobId": "4424647881",
+    "title": "Software Engineer (Code Review & Quality) | $80/hr Remote\nSoftware Engineer (Code Review & Quality) | $80/hr Remote",
+    "company": "Crossing Hurdles",
+    "probability": 91,
+    "matchingSkills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Go"
+    ],
+    "isApplied": false,
+    "link": "https://www.linkedin.com/jobs/view/4424647881/",
+    "timestamp": "2026-06-26T06:05:41.783Z"
+  },
+  {
+    "jobId": "4431676241",
+    "title": "Quality Assurance Specialist\nQuality Assurance Specialist with verification",
+    "company": "Ascendion",
+    "probability": 83,
+    "matchingSkills": [
+      "Python",
+      "JavaScript",
+      "Playwright",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Java",
+      "Selenium"
+    ],
+    "isApplied": false,
+    "link": "https://www.linkedin.com/jobs/view/4431676241/",
+    "timestamp": "2026-06-26T06:09:01.344Z"
+  },
+  {
+    "jobId": "4420298601",
+    "title": "Quality Assurance Engineer\nQuality Assurance Engineer with verification",
+    "company": "Nemetschek Group",
+    "probability": 66,
+    "matchingSkills": [
+      "Python",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Machine Learning"
+    ],
+    "isApplied": false,
+    "link": "https://www.linkedin.com/jobs/view/4420298601/",
+    "timestamp": "2026-06-26T06:09:44.668Z"
+  },
+  {
+    "jobId": "4430073246",
+    "title": "Quality Engineer\nQuality Engineer with verification",
+    "company": "TIGI HR",
+    "probability": 0,
+    "matchingSkills": [],
+    "missingSkills": [
+      "Go"
+    ],
+    "isApplied": false,
+    "link": "https://www.linkedin.com/jobs/view/4430073246/",
+    "timestamp": "2026-06-26T06:08:06.004Z"
+  },
+  {
+    "jobId": "4428033022",
+    "title": "Automation Engineer\nAutomation Engineer with verification",
+    "company": "IBM",
+    "probability": 90,
+    "matchingSkills": [
+      "Python",
+      "TypeScript",
+      "REST APIs",
+      "Git/GitHub",
+      "CI/CD",
+      "Playwright",
+      "Postman",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Azure",
+      "Jenkins"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4428033022/",
+    "timestamp": "2026-06-26T05:54:09.483Z"
+  },
+  {
+    "jobId": "4431182414",
+    "title": "API Test Engineer\nAPI Test Engineer with verification",
+    "company": "Tredence Inc.",
+    "probability": 90,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "REST APIs",
+      "Microservices",
+      "Git/GitHub",
+      "CI/CD",
+      "Playwright",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "AWS",
+      "Machine Learning"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4431182414/",
+    "timestamp": "2026-06-26T06:05:49.423Z"
+  },
+  {
+    "jobId": "4429638358",
+    "title": "Software Engineer in Test\nSoftware Engineer in Test with verification",
+    "company": "Karix",
+    "probability": 83,
+    "matchingSkills": [
+      "Python",
+      "TypeScript",
+      "CI/CD",
+      "Playwright",
+      "Postman",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Java",
+      "SQL",
+      "Selenium"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4429638358/",
+    "timestamp": "2026-06-26T06:06:11.917Z"
+  },
+  {
+    "jobId": "4432220494",
+    "title": "Quality Assurance Engineer - India Remote\nQuality Assurance Engineer - India Remote",
+    "company": "QuantumLoopAi",
+    "probability": 80,
+    "matchingSkills": [
+      "Python",
+      "REST APIs",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Machine Learning"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4432220494/",
+    "timestamp": "2026-06-26T06:05:34.313Z"
+  },
+  {
+    "jobId": "4429449890",
+    "title": "Javascript Developer\nJavascript Developer",
+    "company": "NR Healthcare",
+    "probability": 80,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML/CSS",
+      "Node.js",
+      "REST APIs",
+      "Git/GitHub",
+      "CI/CD",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Angular",
+      "Vue.js",
+      "Express.js",
+      "Cypress",
+      "Jest",
+      "Mocha"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4429449890/",
+    "timestamp": "2026-06-26T06:06:57.301Z"
+  },
+  {
+    "jobId": "4413309688",
+    "title": "Software Engineer\nSoftware Engineer",
+    "company": "Altisource",
+    "probability": 80,
+    "matchingSkills": [
+      "JavaScript",
+      "React",
+      "HTML/CSS",
+      "REST APIs",
+      "Microservices",
+      "MySQL",
+      "Docker",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Java",
+      "Redux",
+      "Next.js",
+      "Spring Boot",
+      "AWS",
+      "Object-Oriented Design"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4413309688/",
+    "timestamp": "2026-06-26T06:08:47.276Z"
+  },
+  {
+    "jobId": "4421873120",
+    "title": "Full Stack Engineer\nFull Stack Engineer",
+    "company": "Impetus",
+    "probability": 77,
+    "matchingSkills": [
+      "JavaScript",
+      "React",
+      "HTML/CSS",
+      "REST APIs",
+      "Microservices",
+      "MongoDB",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Java",
+      "Angular",
+      "Spring Boot",
+      "SQL",
+      "Oracle DB",
+      "Unit Testing"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4421873120/",
+    "timestamp": "2026-06-26T06:11:37.366Z"
+  },
+  {
+    "jobId": "4432106020",
+    "title": "Jr. Engineer, Product UI and Apps\nJr. Engineer, Product UI and Apps with verification",
+    "company": "NIKSUN",
+    "probability": 77,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML/CSS",
+      "REST APIs",
+      "MySQL",
+      "Docker",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "PHP",
+      "Angular",
+      "Vue.js",
+      "SASS/LESS",
+      "Jenkins",
+      "Linux"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4432106020/",
+    "timestamp": "2026-06-26T06:05:19.368Z"
+  },
+  {
+    "jobId": "4431244161",
+    "title": "Back End Developer (Nodejs)\nBack End Developer (Nodejs)",
+    "company": "HabileLabs",
+    "probability": 77,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "REST APIs",
+      "Microservices",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Git/GitHub",
+      "CI/CD",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Express.js",
+      "GraphQL",
+      "Redis",
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Kubernetes",
+      "Data Engineering",
+      "Kafka"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4431244161/",
+    "timestamp": "2026-06-26T06:06:04.287Z"
+  },
+  {
+    "jobId": "4432203230",
+    "title": "Full Stack Engineer\nFull Stack Engineer with verification",
+    "company": "Hyring®",
+    "probability": 72,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML/CSS",
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Tailwind CSS",
+      "Redux",
+      "Next.js",
+      "AWS",
+      "Jenkins",
+      "Cypress",
+      "Jest",
+      "Kafka"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4432203230/",
+    "timestamp": "2026-06-26T06:04:33.718Z"
+  },
+  {
+    "jobId": "4429521130",
+    "title": "Full Stack Engineer\nFull Stack Engineer",
+    "company": "Cross Country Healthcare",
+    "probability": 70,
+    "matchingSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "REST APIs",
+      "Microservices",
+      "Git/GitHub",
+      "CI/CD",
+      "Agile/Scrum"
+    ],
+    "missingSkills": [
+      "Angular",
+      "Express.js",
+      "GraphQL",
+      "SQL",
+      "Redis",
+      "Elasticsearch",
+      "AWS",
+      "Terraform"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4429521130/",
+    "timestamp": "2026-06-26T06:05:26.881Z"
+  },
+  {
+    "jobId": "4431852244",
+    "title": "Software Engineer-I\nSoftware Engineer-I",
+    "company": "BU Consultants",
+    "probability": 67,
+    "matchingSkills": [
+      "REST APIs",
+      "Microservices",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Git/GitHub",
+      "CI/CD"
+    ],
+    "missingSkills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Elasticsearch",
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Jenkins",
+      "Data Structures"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4431852244/",
+    "timestamp": "2026-06-26T06:05:56.756Z"
+  },
+  {
+    "jobId": "4425458723",
+    "title": "Solution Engineer\nSolution Engineer",
+    "company": "Signeasy",
+    "probability": 66,
+    "matchingSkills": [
+      "REST APIs",
+      "Postman"
+    ],
+    "missingSkills": [
+      "Go"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4425458723/",
+    "timestamp": "2026-06-26T05:54:47.678Z"
+  },
+  {
+    "jobId": "4431874346",
+    "title": "Software Engineer Intern\nSoftware Engineer Intern with verification",
+    "company": "Silvermine Group",
+    "probability": 65,
+    "matchingSkills": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "C",
+      "React"
+    ],
+    "missingSkills": [
+      "Java",
+      "Angular",
+      "Spring Boot",
+      "Object-Oriented Design",
+      "Data Structures",
+      "Algorithm Design"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4431874346/",
+    "timestamp": "2026-06-26T06:11:30.298Z"
+  },
+  {
+    "jobId": "4425804300",
+    "title": "Software Engineer Intern\nSoftware Engineer Intern",
+    "company": "ASPIRE IITB Research Park Foundation",
+    "probability": 64,
+    "matchingSkills": [
+      "JavaScript",
+      "React",
+      "REST APIs",
+      "Git/GitHub"
+    ],
+    "missingSkills": [
+      "Django",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Data Structures"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4425804300/",
+    "timestamp": "2026-06-26T06:06:19.315Z"
+  },
+  {
+    "jobId": "4416500258",
+    "title": "Software Engineer in Test\nSoftware Engineer in Test with verification",
+    "company": "Telna",
+    "probability": 63,
+    "matchingSkills": [
+      "Python",
+      "TypeScript",
+      "REST APIs",
+      "Microservices",
+      "Docker",
+      "Git/GitHub",
+      "CI/CD",
+      "Playwright",
+      "Agile/Scrum",
+      "JIRA"
+    ],
+    "missingSkills": [
+      "Java",
+      "Kotlin",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Kubernetes",
+      "Terraform",
+      "Jenkins",
+      "Bash/Shell",
+      "Selenium",
+      "Kafka",
+      "Object-Oriented Design"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4416500258/",
+    "timestamp": "2026-06-26T06:10:55.334Z"
+  },
+  {
+    "jobId": "4422264142",
+    "title": "Software Engineer\nSoftware Engineer",
+    "company": "Legal Experts AI",
+    "probability": 62,
+    "matchingSkills": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "REST APIs",
+      "Git/GitHub"
+    ],
+    "missingSkills": [
+      "Java",
+      "Go",
+      "GraphQL",
+      "SQL",
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Machine Learning"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4422264142/",
+    "timestamp": "2026-06-26T06:05:11.792Z"
+  },
+  {
+    "jobId": "4428697750",
+    "title": "Test Engineer - Automation\nTest Engineer - Automation with verification",
+    "company": "HID",
+    "probability": 61,
+    "matchingSkills": [
+      "REST APIs",
+      "Git/GitHub",
+      "Postman",
+      "Agile/Scrum",
+      "JIRA"
+    ],
+    "missingSkills": [
+      "Java",
+      "AWS",
+      "Azure",
+      "Jenkins",
+      "Selenium",
+      "Machine Learning",
+      "Data Engineering"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4428697750/",
+    "timestamp": "2026-06-26T05:55:26.065Z"
+  },
+  {
+    "jobId": "4424713242",
+    "title": "Smart TV App Engineer / Smart TV App Specialist\nSmart TV App Engineer / Smart TV App Specialist",
+    "company": "Whale TV",
+    "probability": 53,
+    "matchingSkills": [
+      "JavaScript",
+      "HTML/CSS",
+      "MySQL"
+    ],
+    "missingSkills": [
+      "PHP",
+      "Angular",
+      "Bootstrap",
+      "SQL",
+      "SQL Server",
+      "Linux"
+    ],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4424713242/",
+    "timestamp": "2026-06-26T06:10:42.093Z"
+  },
+  {
+    "jobId": "4422382166",
+    "title": "HCL Hiring Fresher Process associate\nHCL Hiring Fresher Process associate with verification",
+    "company": "HCLTech",
+    "probability": 50,
+    "matchingSkills": [],
+    "missingSkills": [],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4422382166/",
+    "timestamp": "2026-06-26T05:54:01.974Z"
+  },
+  {
+    "jobId": "4422915761",
+    "title": "Test Engineer\nTest Engineer with verification",
+    "company": "Celstream Technologies",
+    "probability": 50,
+    "matchingSkills": [],
+    "missingSkills": [],
+    "isApplied": true,
+    "link": "https://www.linkedin.com/jobs/view/4422915761/",
+    "timestamp": "2026-06-26T06:10:29.109Z"
+  }
+]

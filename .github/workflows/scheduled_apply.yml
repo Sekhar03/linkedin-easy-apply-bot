@@ -1,0 +1,59 @@
+name: Scheduled LinkedIn Job Apply
+
+on:
+  schedule:
+    # Runs every day at 03:30 UTC (9:00 AM IST)
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  run-linkedin-apply:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Restore Session & Config from Secrets (If Available)
+        run: |
+          if [ -n "${{ secrets.STATE_JSON_BASE64 }}" ]; then
+            echo "Restoring state.json from GitHub Secrets..."
+            echo "${{ secrets.STATE_JSON_BASE64 }}" | base64 -d > state.json
+          else
+            echo "Warning: STATE_JSON_BASE64 secret not found."
+          fi
+
+          if [ -n "${{ secrets.CONFIG_JSON_BASE64 }}" ]; then
+            echo "Restoring config.json from GitHub Secrets..."
+            echo "${{ secrets.CONFIG_JSON_BASE64 }}" | base64 -d > config.json
+          else
+            echo "Using default repository config.json..."
+          fi
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium & OS Dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: Run LinkedIn Easy Apply Bot
+        env:
+          HEADLESS: "true"
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node apply.js
+
+      - name: Upload Applied Jobs Log Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: applied-jobs-log
+          path: applied_jobs.json
+          retention-days: 7

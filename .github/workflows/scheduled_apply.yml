@@ -29,17 +29,29 @@ jobs:
             const fs = require('fs');
             if (process.env.STATE_B64 && process.env.STATE_B64.trim()) {
               console.log('Restoring state.json from GitHub Secrets...');
-              const buf = Buffer.from(process.env.STATE_B64.trim(), 'base64');
-              fs.writeFileSync('state.json', buf);
-              console.log('Restored state.json (' + buf.length + ' bytes)');
+              try {
+                const cleanB64 = process.env.STATE_B64.replace(/[\s\r\n'"]/g, '');
+                const str = Buffer.from(cleanB64, 'base64').toString('utf8');
+                JSON.parse(str);
+                fs.writeFileSync('state.json', str);
+                console.log('Restored state.json (Valid JSON, ' + str.length + ' chars)');
+              } catch(e) {
+                console.error('Warning: STATE_B64 secret is not valid JSON or was corrupted:', e.message);
+              }
             } else {
               console.log('Warning: STATE_JSON_BASE64 secret not found or empty.');
             }
             if (process.env.CONFIG_B64 && process.env.CONFIG_B64.trim()) {
               console.log('Restoring config.json from GitHub Secrets...');
-              const buf = Buffer.from(process.env.CONFIG_B64.trim(), 'base64');
-              fs.writeFileSync('config.json', buf);
-              console.log('Restored config.json (' + buf.length + ' bytes)');
+              try {
+                const cleanB64 = process.env.CONFIG_B64.replace(/[\s\r\n'"]/g, '');
+                const str = Buffer.from(cleanB64, 'base64').toString('utf8');
+                JSON.parse(str);
+                fs.writeFileSync('config.json', str);
+                console.log('Restored config.json (Valid JSON, ' + str.length + ' chars)');
+              } catch(e) {
+                console.error('Warning: CONFIG_B64 secret is not valid JSON:', e.message);
+              }
             }
           "
 

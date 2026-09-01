@@ -1070,8 +1070,14 @@ async function run() {
   };
   
   if (hasState && config.platform !== 'other') {
-    contextOptions.storageState = 'state.json';
-    console.log('Using saved session from state.json...');
+    try {
+      const stateRaw = fs.readFileSync('state.json', 'utf8');
+      JSON.parse(stateRaw);
+      contextOptions.storageState = 'state.json';
+      console.log('Using saved session from state.json...');
+    } catch (err) {
+      console.warn('Warning: state.json is invalid JSON. Proceeding without saved session state:', err.message);
+    }
   } else if (config.platform === 'other') {
     console.log('Platform is "other". Ignoring state.json to start a fresh browser context without LinkedIn session.');
   } else {
